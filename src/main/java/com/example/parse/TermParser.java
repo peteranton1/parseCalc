@@ -26,7 +26,7 @@ public class TermParser {
     }
 
     public List<Token> parse() {
-        return term(new ArrayList<Token>());
+        return consumed;
     }
 
     private Token eat() {
